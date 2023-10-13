@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+h2{
+    padding: 15px;
+    position: fixed;
+    top: 10px;
+}
+
+nav ,button{
+    margin-left: 40px;
+}
+.nav-btn{
+position: fixed; 
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: end;
+gap: 20px; 
+line-height: 40px;
+
+}
+.nav-btn a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+    
+}
+
+.nav-btn .l1{
+   color: rgb(15, 236, 188);
+   border: 0;
+   outline: 0;
+   background: white;    
+}
+.nav-btn .s1{
+    background-color:rgb(15, 236, 188) ;
+    border-radius: 20px;
+    padding: 7px;
+    color: #fff;
+    border: 0;
+    
+}
+   
+
+
+.header-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 300px;
+    max-width: 50%;
+    color: rgb(35, 5, 92);
+    padding-top: 30px;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.btn3{
+    margin-top: 20px;
+    background-color:rgb(235, 4, 162);
+    padding: 10px;
+    border-radius: 25px;
+    border: 0;
+    color: #fff;
+    margin-left:10px ;
+    width: 200px;
+}
+
+.f1 img ,span{
+    height: 100px;
+    width: 150px;
+    border-radius: 20px 10px;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+}
+.f2 img,span{
+    height: 100px;
+    width: 150px;
+    border-radius: 20px 10px;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.f3 img,span{
+    height: 100px;
+    width: 150px;
+    border-radius: 20px 10px;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+ 
+}
+
+footer span{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+
